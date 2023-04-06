@@ -7,17 +7,8 @@
 	<section class="sm:py-20">
 		<div class="container flex flex-col justify-center  p-4 mx-auto md:p-8">
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-				<div class="w-full lg:w-1/2 p-2">
-					<figure class="">
-						<img
-							src="/images/mission.webp"
-							class="h-auto mx-auto rounded w-96 mt-5 md:w-102 lg:w-148"
-							alt="mission" width="300" height="200" 
-						/>
-						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
-					</figure>
-				</div>
-				<div class="w-full lg:w-1/2 p-2 ">
+				
+				<div class="w-full ">
 					<h2 class="text-center font-bold md:text-left md:text-6xl text-2xl">
 						PROGRAMMING IS <span class=" text-purple-600 "> MORE </span> DIFFICULT NOW, JOIN TODAY AND
 						BE FREE
@@ -29,6 +20,18 @@
 					</P>
 					<div class="mx-auto text-center  md:text-left"><Button href="/">Contact Us</Button></div>
 				</div>
+				<div class="w-full ">
+					<figure class="">
+						<img
+							src="/images/mission.webp"
+							class="h-auto mx-auto rounded w-96 mt-5 md:w-102 lg:w-148"
+							alt="mission"
+							width="300"
+							height="200"
+						/>
+						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
+					</figure>
+				</div>
 			</div>
 			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 aspect-w-4 aspect-h-3">
@@ -38,7 +41,8 @@
 							src="/images/mission.webp"
 							class="h-auto mx-auto rounded w-96 mt-5 md:w-102 lg:w-148"
 							alt="mission"
-							width="300" height="200" 
+							width="300"
+							height="200"
 						/>
 						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
 					</figure>
