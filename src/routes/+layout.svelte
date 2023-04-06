@@ -62,7 +62,7 @@
 		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5  right-2 top-12  md:top-3 md:right-2 z-50';
 	let divClass = 'w-full md:block md:w-auto';
 	let ulClass =
-		'flex flex-col p-4 text-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
+		'flex flex-col p-1 text-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
 </script>
 
 <svelte:window bind:innerWidth={width} />
@@ -133,8 +133,6 @@
 				<DropdownItem>Java Programs</DropdownItem>
 				<DropdownItem>VB Programs</DropdownItem>
 				<DropdownItem>C# Programs</DropdownItem>
-				<DropdownDivider />
-				<DropdownItem>Sign out</DropdownItem>
 			</Dropdown>
 		</NavUl>
 	</Navbar>
