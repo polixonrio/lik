@@ -6,7 +6,7 @@
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
 	<section class="sm:py-20">
 		<div class="container flex flex-col justify-center  p-4 mx-auto md:p-8">
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 aspect-w-4 aspect-h-3">
 				<div class="md:order-2">
 					<figure class="">
 						<img
@@ -27,7 +27,7 @@
 					>
 						Join Asterisc Today and Solidify your IT career
 					</P>
-					<div class="mx-auto text-center  md:text-left"><Button  href="/">Contact Us</Button></div>
+					<div class="mx-auto text-center  md:text-left"><Button href="/">Contact Us</Button></div>
 				</div>
 			</div>
 			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
@@ -61,32 +61,22 @@
 		</div>
 	</section>
 
-
-
-
-
-
-
-
-
-
 	<section id="getstarted" class="  bg-purple-500 dark:bg-purple-500 ">
 		<div class="container flex flex-col items-center justify-center p-4 mx-auto md:p-8">
 			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-    
-      <h2 class="mb-4 text-4xl tracking-tight font-semibold text-center text-white dark:text-gray-900">
+
+			<h2
+				class="mb-4 text-4xl tracking-tight font-semibold text-center text-white dark:text-gray-900"
+			>
 				Get a free consultation call from our experts
 			</h2>
-      <h2 class="mb-4 text-2xl tracking-tight font-lg text-white text-center  dark:text-gray-900">
-				Take advantage of our free consultation call and let our experts help you to choose the
-        best career.
+			<h2 class="mb-4 text-2xl tracking-tight font-lg text-white text-center  dark:text-gray-900">
+				Take advantage of our free consultation call and let our experts help you to choose the best
+				career.
 			</h2>
 
 			<Card>
-
 				<form class="flex flex-col justify-center px-9 space-y-6" action="/">
-					
-					
 					<Label class="space-y-2">
 						<span>Name </span>
 						<Input type="text" name="Name" placeholder="Name" required />
@@ -107,5 +97,3 @@
 		</div>
 	</section>
 </main>
-
-
