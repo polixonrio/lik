@@ -92,19 +92,50 @@
 			<Input id="search-navbar" class="pl-10 mb-3 sm:hidden" placeholder="Search..." />
 			<NavLi href="/" active={true}>Home</NavLi>
 			<NavLi id="nav-menu1" class="cursor-pointer ">
-				Dropdown
+				Automation
+			</NavLi>
+			<NavLi id="nav-menu2" class="cursor-pointer ">
+				Development
+			</NavLi>
+			<NavLi id="nav-menu3" class="cursor-pointer ">
+				Projects
+			</NavLi>
+			<NavLi id="nav-menu4" class="cursor-pointer ">
+				Programs
 			</NavLi>
 			<NavLi href="/services">Services</NavLi>
 			<NavLi href="/pricing">Pricing</NavLi>
 			<NavLi href="/contact">Contact</NavLi>
 			<Dropdown triggeredBy="#nav-menu1" class="w-44 z-20">
-				<DropdownItem>Dashboard</DropdownItem>
-				<DropdownItem>Settings</DropdownItem>
-				<DropdownItem>Earnings</DropdownItem>
+				<DropdownItem>Selenium Tutorial</DropdownItem>
+				<DropdownItem>Selenium Web Driver With Java</DropdownItem>
+				<DropdownItem>Selenium Web Driver With C#</DropdownItem>
+				<DropdownItem>Katalon Studio</DropdownItem>
+				<DropdownItem>Puppeteer and Jest</DropdownItem>
+			</Dropdown>
+			<Dropdown triggeredBy="#nav-menu2" class="w-44 z-20">
+				<DropdownItem>Java Tutorial</DropdownItem>
+				<DropdownItem>JSP Tutorial</DropdownItem>
+				<DropdownItem>Servelet Tutorial</DropdownItem>
+				<DropdownItem>Spring Tutorial</DropdownItem>
+				<DropdownItem>Hibernate Tutorial</DropdownItem>
+				<DropdownItem>Spring Boot With ReactJS</DropdownItem>
+				<DropdownItem>Angular JS</DropdownItem>
+			</Dropdown>
+			<Dropdown triggeredBy="#nav-menu3" class="w-44 z-20">
+				<DropdownItem>Java Projects</DropdownItem>
+				<DropdownItem>Hibernate Projects</DropdownItem>
+				<DropdownItem>Spring Projects</DropdownItem>
+				<DropdownItem>PHP Projects</DropdownItem>
+				<DropdownItem>UML Diagrams</DropdownItem>
+			</Dropdown>
+			<Dropdown triggeredBy="#nav-menu4" class="w-44 z-20">
+				<DropdownItem>Java Programs</DropdownItem>
+				<DropdownItem>VB Programs</DropdownItem>
+				<DropdownItem>C# Programs</DropdownItem>
 				<DropdownDivider />
 				<DropdownItem>Sign out</DropdownItem>
 			</Dropdown>
-			
 		</NavUl>
 	</Navbar>
 </header>
