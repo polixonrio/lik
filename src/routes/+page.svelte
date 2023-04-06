@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 aspect-w-4 aspect-h-3">
 				<div class="md:order-2">
 					<figure class="">
 						<img
