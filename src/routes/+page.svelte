@@ -6,8 +6,8 @@
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
 	<section class="sm:py-20">
 		<div class="container flex flex-col justify-center  p-4 mx-auto md:p-8">
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 aspect-w-4 aspect-h-3">
-				<div class="md:order-2">
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<div class="w-full lg:w-1/2 p-2">
 					<figure class="">
 						<img
 							src="/images/mission.webp"
@@ -17,7 +17,7 @@
 						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
 					</figure>
 				</div>
-				<div class="md:order-1 ">
+				<div class="w-full lg:w-1/2 p-2 ">
 					<h2 class="text-center font-bold md:text-left md:text-6xl text-2xl">
 						PROGRAMMING IS <span class=" text-purple-600 "> MORE </span> DIFFICULT NOW, JOIN TODAY AND
 						BE FREE
