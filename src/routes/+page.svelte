@@ -9,11 +9,11 @@
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<div class="w-full lg:w-1/2 p-2">
 					<figure class="">
-						<!-- <img
+						<img
 							src="/images/mission.webp"
 							class="h-auto mx-auto rounded w-96 mt-5 md:w-102 lg:w-148"
-							alt="mission"
-						/> -->
+							alt="mission" width="300" height="200" 
+						/>
 						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
 					</figure>
 				</div>
@@ -38,6 +38,7 @@
 							src="/images/mission.webp"
 							class="h-auto mx-auto rounded w-96 mt-5 md:w-102 lg:w-148"
 							alt="mission"
+							width="300" height="200" 
 						/>
 						<figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400" />
 					</figure>
